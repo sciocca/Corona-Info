@@ -50,10 +50,10 @@ class ScrollableFrame(ttk.Frame):
 
 #Get Tweets Function
 def pull_tweets(twitter_name):
-    consumer_key = 'VgVDRfXxvyAGNSGQm260yTRx6'
-    consumer_secret = 'GuW8Kw5P2WkgRRp15mDh5kZ8JJkebbTJ9UgxDClQL23HGdKDtM'
-    access_key = '756186848-bYXgiENpn4qvWFJivxolimfB4VedWJYyaLCeKETJ'
-    access_secret = '3tiS5wSeFO2unbXE7RFqGoC1NHiARDaNMr7mDJUyEzBwC'
+    consumer_key = '-----------------'
+    consumer_secret = '-------------------'
+    access_key = '-----------------'
+    access_secret = '------------------'
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_key, access_secret)
     api = tweepy.API(auth, wait_on_rate_limit=True)
