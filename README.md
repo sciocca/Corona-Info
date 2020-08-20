@@ -14,7 +14,3 @@ Features:
   
   Tools Used:
     python, tkinter, OpenBlender, openpyxl, tweepy, newsapi, pandas
-    
-  Problems:
-    OpenBlender requires payment to download large datasets which I didn't want to pay for, This made the data section weak, and also
-    ruined the possibllity of making graphs. 
